@@ -1,0 +1,17 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  username: smeta
+
+development:
+  <<: *default
+  database: smeta_development
+
+test:
+  <<: *default
+  database: smeta_test
+
+production:
+  <<: *default
+  database: smeta_production
