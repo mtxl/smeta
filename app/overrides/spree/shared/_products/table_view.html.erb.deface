@@ -1,0 +1,19 @@
+<!-- replace '#products[data-hook]' -->
+<table id="products" class="table table-striped" data-hook>
+  <% products.each do |product| %>
+    <% url = spree.product_url(product, taxon_id: @taxon.try(:id)) %>
+    <tr id="product_<%= product.id %>" data-hook="products_list_item" itemscope itemtype="http://schema.org/Product">
+        <% cache(@taxon.present? ? [I18n.locale, current_currency, @taxon, product] : [I18n.locale, current_currency, product]) do %>
+          <td class="col-md-6">
+            <%= link_to truncate(product.name, length: 70), url, class: 'info', itemprop: "name", title: product.name %>
+          </td>
+          <td class="col-md-3">
+            <span itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+              <span class="price selling lead" itemprop="price"><%= display_price(product) %></span>
+            </span>
+          </td>
+        <% end %>
+    </tr>
+  <% end %>
+  <% reset_cycle("classes") %>
+</div>
