@@ -1,0 +1,1 @@
+remove "erb[loud]:contains('form_tag') + div.form-group"

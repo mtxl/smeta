@@ -1,0 +1,5 @@
+/ 
+  insert_after 'li#search-bar' 
+li#link-to-cart data-hook
+  noscript = link_to Spree.t(:cart), '/cart'
+script Spree.fetch_cart()

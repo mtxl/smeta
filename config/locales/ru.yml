@@ -421,7 +421,7 @@ ru:
       tab:
         configuration: "Настройки"
         option_types: "Опции работ"
-        orders: "Сметаы"
+        orders: "Смета"
         overview: "Обзор"
         products: "Работы"
         promotions: "Акции"
@@ -438,7 +438,7 @@ ru:
         items_purchased: "Рассчитанные работы"
         order_history: "История расчетов"
         order_num:
-        orders: "Сметаы"
+        orders: "Сметы"
         user_information: "Информация"
     administration: "Администрирование"
     advertise:
@@ -813,7 +813,7 @@ ru:
     month: "Месяц"
     more: "Больше"
     move_stock_between_locations: "Перемещение работ между подрядчиками"
-    my_account: "Моя учетная запись"
+    my_account: "Профиль"
     my_orders: "Мои сметы"
     name: "Наименование"
     name_on_card:

@@ -16,3 +16,4 @@ public/assets/**/*
 *~
 *.swp
 vendor/plugins/*
+public/spree/*

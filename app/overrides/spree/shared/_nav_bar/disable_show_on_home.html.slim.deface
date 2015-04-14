@@ -1,0 +1,4 @@
+/ surround 'li#search-bar'
+- unless @home_controller
+  = render_original
+
