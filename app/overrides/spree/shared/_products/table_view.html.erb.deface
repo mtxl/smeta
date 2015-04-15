@@ -7,9 +7,12 @@
           <td class="col-md-6">
             <%= link_to truncate(product.name, length: 70), url, class: 'info', itemprop: "name", title: product.name %>
           </td>
-          <td class="col-md-3">
+          <td class="col-md-1">
+            <%= product.unit %>
+          </td>
+          <td class="col-md-2">
             <span itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-              <span class="price selling lead" itemprop="price"><%= display_price(product) %></span>
+              <span class="price1 selling1 lead1" itemprop="price"><%= display_price(product) %></span>
             </span>
           </td>
         <% end %>

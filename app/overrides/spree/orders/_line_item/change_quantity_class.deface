@@ -1,0 +1,2 @@
+set_attributes "[data-hook='cart_item_quantity']"
+attributes  :class => 'cart_item_quantity col-md-1'

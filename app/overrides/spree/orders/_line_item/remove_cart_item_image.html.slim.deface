@@ -1,0 +1,2 @@
+/ replace "[data-hook='cart_item_image']"
+td = variant.sku

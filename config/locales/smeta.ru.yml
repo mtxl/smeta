@@ -2,3 +2,10 @@ ru:
   insert_in_calculation: Выберите работы и составьте смету. Это бесплатно!
   choose_your_work: Хотите оценить стоимость ремонта? 
   rub: руб.
+  unit: Ед. измерения
+  square_metre_short: кв.м.
+  linear_metre_short: п.м.
+  active_record:
+    attributes:
+      spree/products:
+        unit: Ед. измерения

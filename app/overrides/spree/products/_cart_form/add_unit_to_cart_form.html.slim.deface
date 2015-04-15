@@ -1,0 +1,3 @@
+/
+ replace 'h6.product-section-title erb'
+="#{Spree.t(:price)} / #{@product.unit}"
