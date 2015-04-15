@@ -1,0 +1,5 @@
+/ replace "[data-hook='checkout_header']"
+.col-md-12
+  h1 =t(:smeta_variant)
+
+

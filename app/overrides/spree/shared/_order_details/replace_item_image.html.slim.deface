@@ -1,0 +1,4 @@
+/ replace "[data-hook='order_item_image']"
+td
+ =item.variant.sku
+

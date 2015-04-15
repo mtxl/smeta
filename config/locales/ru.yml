@@ -481,7 +481,7 @@ ru:
     back_to_payment:
     back_to_resource_list:
     back_to_rma_reason_list:
-    back_to_store: "Вернуться в магазин"
+    back_to_store: "Составить новую смету"
     back_to_users_list: "Назад к списку пользователей"
     backorderable: "Возможен предзаказ"
     backorderable_default: "Предзаказ по умолчанию"
@@ -517,7 +517,7 @@ ru:
     category: "Категория"
     charged:
     check_for_spree_alerts: "Проверить оповещения Spree"
-    checkout: "Оформление сметы"
+    checkout: "Оформить"
     choose_a_customer: "Выберите клиента"
     choose_a_taxon_to_sort_products_for: "Выберите таксон для сортировки работ"
     choose_currency: "Выбрать валюту"
@@ -540,7 +540,7 @@ ru:
     confirm_delete: "Подтверждение удаления"
     confirm_password: "Подтверждение пароля"
     continue: "Продолжить"
-    continue_shopping: "Продолжить расчет сметы"
+    continue_shopping: "Добавить работы"
     cost_currency: "Валюта"
     cost_price: "Себестоимость"
     could_not_connect_to_jirafe: "Невозможно синхоринизороваться с Jirafe. Попытка будет повторена позже."
@@ -813,7 +813,7 @@ ru:
     month: "Месяц"
     more: "Больше"
     move_stock_between_locations: "Перемещение работ между подрядчиками"
-    my_account: "Профиль"
+    my_account: "Мои данные"
     my_orders: "Мои сметы"
     name: "Наименование"
     name_on_card:
@@ -1349,7 +1349,7 @@ ru:
     unlock: "Разблокировать"
     unrecognized_card_type: "Неизвестный тип карты"
     unshippable_items: "Неотправляемые Товары"
-    update: "Изменить"
+    update: "Пересчитать"
     updating: "Обновление"
     usage_limit: "Максимальное количество использований"
     use_app_default: "По умолчанию"

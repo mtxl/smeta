@@ -5,6 +5,12 @@ ru:
   unit: Ед. измерения
   square_metre_short: кв.м.
   linear_metre_short: п.м.
+  save_version: Сохранить версию
+  smeta_variant: Вариант сметы
+  your_works: Выбранные работы
+  spree:
+    order_state:
+      save_version: Новый вариант сметы
   active_record:
     attributes:
       spree/products:
