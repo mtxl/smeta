@@ -8,6 +8,6 @@
           .thumbnail
             - cache [I18n.locale, taxon] do 
               /= link_to small_image(taxon.icon(:normal))), url
-              = (link_to(image_tag(taxon.icon(:large)), seo_url(taxon), class: "thumbnail") unless taxon.icon_file_name.nil?)
+              = (link_to(image_tag(taxon.icon(:product)), seo_url(taxon), class: "thumbnail") unless taxon.icon_file_name.nil?)
             .caption.text-center
               = link_to(taxon.name, url, class: 'info', title: taxon.name)

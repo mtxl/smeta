@@ -1,4 +1,4 @@
-<!-- insert_before '[data-hook="new_product_price"]' -->
+<!-- insert_before '[data-hook="admin_product_form_price"]' -->
 <div> 
   <%= f.field_container :unit, class: ['form-group'] do %>
     <%= f.label :unit, raw(t(:unit) + content_tag(:span, ' *', class: "required")) %>

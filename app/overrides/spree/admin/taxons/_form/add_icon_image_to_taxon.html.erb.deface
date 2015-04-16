@@ -1,0 +1,9 @@
+<!-- insert_before 'erb:contains("container :icon")' -->
+<div>
+<%= f.field_container :thumbnail, class: ['form-group'] do %>
+  <%= f.label Spree.t(:thumbnail) %>
+  <br>
+  <%= link_to image_tag(@taxon.icon.url(:normal)), @taxon.icon.url %>
+<% end %>
+</div>
+
