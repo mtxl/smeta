@@ -1,0 +1,13 @@
+#products data-hook=""
+  - @taxonomies.each do |taxonomy|
+    .row
+      h4.col-md-12 =taxonomy.name
+      - taxonomy.root.children.each do |taxon|
+        - url = seo_url(taxon)
+        .col-md-3.col-sm-6.product-list-item data-hook="products_list_item" id="taxon_#{taxon.id}"
+          .thumbnail
+            - cache [I18n.locale, taxon] do 
+              /= link_to small_image(taxon.icon(:normal))), url
+              = (link_to(image_tag(taxon.icon(:large)), seo_url(taxon), class: "thumbnail") unless taxon.icon_file_name.nil?)
+            .caption.text-center
+              = link_to(taxon.name, url, class: 'info', title: taxon.name)
