@@ -1,0 +1,6 @@
+Spree::Product: 
+  datashift_defaults: 
+    available_on: '01.01.2015'
+    shipping_category_id: 1
+
+

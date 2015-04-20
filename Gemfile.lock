@@ -1,6 +1,22 @@
 GIT
+  remote: git://github.com/autotelik/datashift.git
+  revision: 844876e8c9f580a83ff89fa55b1770bbf567097b
+  specs:
+    datashift (0.16.0)
+      rubyzip
+      spreadsheet
+
+GIT
+  remote: git://github.com/autotelik/datashift_spree.git
+  revision: 1f3cabd5b8b119b5a8b05c8c1f9c9e4fd27eb6d3
+  specs:
+    datashift_spree (0.6.0)
+      datashift (~> 0.15, >= 0.15.0)
+      mechanize (~> 2.6, >= 2.6.0)
+
+GIT
   remote: git://github.com/spree-contrib/spree_i18n.git
-  revision: 76075d9ba45dbd9f63ff5e258359ff9e1ff0fd34
+  revision: 80e137fe02da3dbeab83cbe2256ee52954e4315f
   branch: 3-0-stable
   specs:
     spree_i18n (3.0.0)
@@ -12,7 +28,7 @@ GIT
 
 GIT
   remote: git://github.com/spree/spree.git
-  revision: 56ae9ba1dc44df2af6c83446ce805f519cbf19a5
+  revision: 231175872836638db94090f7bf596ddf508fe0b1
   branch: 3-0-stable
   specs:
     spree (3.0.0)
@@ -85,7 +101,7 @@ GIT
 
 GIT
   remote: git://github.com/spree/spree_gateway.git
-  revision: d94709cb0095da3bfca1fd4d9a20dc34cb5bc5f2
+  revision: fc1940d30748876a16be81149178b898c5562d23
   branch: 3-0-stable
   specs:
     spree_gateway (3.0.0.beta)
@@ -138,7 +154,7 @@ GEM
       activerecord (>= 3.0)
     addressable (2.3.8)
     arel (6.0.0)
-    autoprefixer-rails (5.1.8.1)
+    autoprefixer-rails (5.1.9)
       execjs
       json
     awesome_nested_set (3.0.2)
@@ -189,6 +205,8 @@ GEM
       warden (~> 1.2.3)
     devise-encryptable (0.1.2)
       devise (>= 2.1.0)
+    domain_name (0.5.24)
+      unf (>= 0.0.5, < 1.0.0)
     erubis (2.7.0)
     execjs (2.5.2)
     ffaker (1.32.1)
@@ -205,6 +223,8 @@ GEM
       activerecord (>= 4.2.0, < 4.3)
     highline (1.6.21)
     htmlentities (4.3.3)
+    http-cookie (1.0.2)
+      domain_name (~> 0.5)
     httparty (0.13.3)
       json (~> 1.8)
       multi_xml (>= 0.5.2)
@@ -228,17 +248,29 @@ GEM
       nokogiri (>= 1.5.9)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
+    mechanize (2.7.3)
+      domain_name (~> 0.5, >= 0.5.1)
+      http-cookie (~> 1.0)
+      mime-types (~> 2.0)
+      net-http-digest_auth (~> 1.1, >= 1.1.1)
+      net-http-persistent (~> 2.5, >= 2.5.2)
+      nokogiri (~> 1.4)
+      ntlm-http (~> 0.1, >= 0.1.1)
+      webrobots (>= 0.0.9, < 0.2)
     mime-types (2.4.3)
     mini_portile (0.6.2)
-    minitest (5.5.1)
+    minitest (5.6.0)
     monetize (1.2.0)
       money (~> 6.5.0)
     money (6.5.1)
       i18n (>= 0.6.4, <= 0.7.0)
     multi_json (1.11.0)
     multi_xml (0.5.5)
+    net-http-digest_auth (1.4)
+    net-http-persistent (2.9.4)
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
+    ntlm-http (0.1.1)
     orm_adapter (0.5.0)
     paperclip (4.2.1)
       activemodel (>= 3.0.0)
@@ -301,6 +333,8 @@ GEM
     ref (1.0.5)
     responders (2.1.0)
       railties (>= 4.2.0, < 5)
+    ruby-ole (1.2.11.8)
+    rubyzip (1.1.7)
     sass (3.4.13)
     sass-rails (5.0.3)
       railties (>= 4.0.0, < 5.0)
@@ -322,8 +356,10 @@ GEM
       activesupport (>= 3.1, < 5.0)
       railties (>= 3.1, < 5.0)
       slim (~> 3.0)
+    spreadsheet (1.0.3)
+      ruby-ole (>= 1.0)
     spring (1.3.4)
-    sprockets (3.0.0)
+    sprockets (3.0.1)
       rack (~> 1.0)
     sprockets-rails (2.2.4)
       actionpack (>= 3.0)
@@ -357,6 +393,9 @@ GEM
     uglifier (2.7.1)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.6)
     versioncake (2.3.1)
       actionpack (>= 3.2)
       activesupport (>= 3.2)
@@ -369,6 +408,7 @@ GEM
       binding_of_caller (>= 0.7.2)
       railties (>= 4.0)
       sprockets-rails (>= 2.0, < 4.0)
+    webrobots (0.1.1)
 
 PLATFORMS
   ruby
@@ -376,6 +416,8 @@ PLATFORMS
 DEPENDENCIES
   byebug
   coffee-rails (~> 4.1.0)
+  datashift!
+  datashift_spree!
   execjs
   jbuilder (~> 2.0)
   jquery-rails
