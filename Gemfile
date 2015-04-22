@@ -50,3 +50,11 @@ gem 'slim-rails'
 gem 'datashift', github: 'autotelik/datashift'
 gem 'datashift_spree',  github: 'autotelik/datashift_spree'
 
+group :development do
+  gem 'capistrano'
+  gem 'capistrano-bundler'
+  gem 'capistrano-rails'
+  gem 'capistrano-rvm'
+  gem 'capistrano-passenger'
+end
+gem 'figaro'

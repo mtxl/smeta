@@ -17,3 +17,6 @@ public/assets/**/*
 *.swp
 vendor/plugins/*
 public/spree/*
+
+# Ignore application configuration
+/config/application.yml
