@@ -56,5 +56,7 @@ group :development do
   gem 'capistrano-rails'
   gem 'capistrano-rvm'
   gem 'capistrano-passenger'
+  gem 'capistrano3-postgres'
+  gem 'capistrano-faster-assets'
 end
 gem 'figaro'
