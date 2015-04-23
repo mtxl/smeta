@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: git://github.com/autotelik/datashift_spree.git
-  revision: 1f3cabd5b8b119b5a8b05c8c1f9c9e4fd27eb6d3
+  revision: e98930cd93d46b5cb672ce6dd7f0f4969a244384
   specs:
     datashift_spree (0.6.0)
       datashift (~> 0.15, >= 0.15.0)
@@ -16,7 +16,7 @@ GIT
 
 GIT
   remote: git://github.com/spree-contrib/spree_i18n.git
-  revision: 80e137fe02da3dbeab83cbe2256ee52954e4315f
+  revision: b34de934f320063e7ed0f3a299bd396828b3322d
   branch: 3-0-stable
   specs:
     spree_i18n (3.0.0)
@@ -28,7 +28,7 @@ GIT
 
 GIT
   remote: git://github.com/spree/spree.git
-  revision: 231175872836638db94090f7bf596ddf508fe0b1
+  revision: 3ffe6f5253b5ac439f024b5dd60a39407186281a
   branch: 3-0-stable
   specs:
     spree (3.0.0)
@@ -154,7 +154,7 @@ GEM
       activerecord (>= 3.0)
     addressable (2.3.8)
     arel (6.0.0)
-    autoprefixer-rails (5.1.9)
+    autoprefixer-rails (5.1.11)
       execjs
       json
     awesome_nested_set (3.0.2)
@@ -204,7 +204,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.9.1.1)
-    colorize (0.7.5)
+    colorize (0.7.7)
     columnize (0.9.0)
     css_parser (1.3.6)
       addressable
@@ -382,7 +382,7 @@ GEM
     spreadsheet (1.0.3)
       ruby-ole (>= 1.0)
     spring (1.3.4)
-    sprockets (3.0.1)
+    sprockets (3.0.2)
       rack (~> 1.0)
     sprockets-rails (2.2.4)
       actionpack (>= 3.0)
@@ -422,7 +422,7 @@ GEM
       json (>= 1.8.0)
     unf (0.1.4)
       unf_ext
-    unf_ext (0.0.6)
+    unf_ext (0.0.7.1)
     versioncake (2.3.1)
       actionpack (>= 3.2)
       activesupport (>= 3.2)
