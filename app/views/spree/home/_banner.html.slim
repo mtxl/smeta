@@ -1,5 +1,10 @@
 div.jumbotron
   .row
+    .col-md-12.text-center
+      .page-header
+        h2
+          = link_to image_tag('logo/smeta.png'), spree.root_path
+  .row
     .col-md-3
     .col-md-6 = render :partial => "spree/home/home_search"
     .col-md-3

@@ -517,7 +517,7 @@ ru:
     category: "Категория"
     charged:
     check_for_spree_alerts: "Проверить оповещения Spree"
-    checkout: "Оформить"
+    checkout: "Сохранить"
     choose_a_customer: "Выберите клиента"
     choose_a_taxon_to_sort_products_for: "Выберите таксон для сортировки работ"
     choose_currency: "Выбрать валюту"
@@ -813,8 +813,8 @@ ru:
     month: "Месяц"
     more: "Больше"
     move_stock_between_locations: "Перемещение работ между подрядчиками"
-    my_account: "Мои данные"
-    my_orders: "Мои сметы"
+    my_account: "Мои сметы"
+    my_orders: "Варианты смет"
     name: "Наименование"
     name_on_card:
     name_or_sku: "Наименование или артикул"

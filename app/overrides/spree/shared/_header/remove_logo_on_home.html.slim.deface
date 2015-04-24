@@ -1,0 +1,3 @@
+/ replace "erb:contains('logo')"
+- unless @home_controller
+ = logo

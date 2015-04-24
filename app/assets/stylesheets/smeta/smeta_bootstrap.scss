@@ -4,6 +4,7 @@
 
 #spree-header{
   margin-bottom: 0px;
+  background: #1C5C92 center center;
 }
 
 .slogan {
@@ -16,3 +17,6 @@ h5.subtaxon-title {
   font-weight: bold;
 }
 
+.thumbnail img { 
+  min-height:162px; height:162px; 
+}

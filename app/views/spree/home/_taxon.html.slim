@@ -1,7 +1,6 @@
 #products data-hook=""
   - @taxonomies.each do |taxonomy|
     .row
-      h4.col-md-12 =taxonomy.name
       - taxonomy.root.children.each do |taxon|
         - url = seo_url(taxon)
         .col-md-3.col-sm-6.product-list-item data-hook="products_list_item" id="taxon_#{taxon.id}"
