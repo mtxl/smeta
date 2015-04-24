@@ -1,0 +1,2 @@
+/ insert_top '[data-hook="body"]'
+= render :partial => 'spree/shared/yandex_metrika' 
