@@ -1,2 +1,2 @@
 - taxon = @product.taxons.first
-= (link_to(image_tag(taxon.icon(:product).split("?").first), seo_url(taxon), class: "thumbnail") unless taxon.icon_file_name.nil?)
+= (link_to(image_tag(taxon.icon(:product)), seo_url(taxon), class: "thumbnail") unless taxon.icon_file_name.nil?)
