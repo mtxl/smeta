@@ -1,0 +1,2 @@
+/ insert_before '.add-to-cart .input-group'
+h6.product-section-title =t(:work_volume)

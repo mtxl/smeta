@@ -8,6 +8,8 @@ ru:
   save_version: Сохранить версию
   smeta_variant: Вариант сметы
   your_works: Выбранные работы
+  work_volume: Введите объем работ
+  average_price: Средняя цена
   spree:
     order_state:
       save_version: Новый вариант сметы
